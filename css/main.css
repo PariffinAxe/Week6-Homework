@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+body > form {
+    margin: 15px;
+}
+
+body > ul {
+    list-style: None;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+body > ul > li {
+  margin: 2px;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 10px whitesmoke;
+  width: 200px;
+}
+
+body > h1 {
+    text-align: center; 
+}
+
+.is-active {
+    background-color: lightgreen;
+}
+
+.is-not-active {
+    background-color: red;
+}
